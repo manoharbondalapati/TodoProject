@@ -9,9 +9,7 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <Routes>
-          {/* Route for the Todos page */}
           <Route path="/" element={<Todos />} />
-          {/* Route for the TodoDetails page */}
           <Route path="/todo/:id" element={<TodoDetails />} />
         </Routes>
       </div>
