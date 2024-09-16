@@ -75,7 +75,7 @@ export const createTodo = (newTodo) => (dispatch, getState) => {
 
 export const updateTodo = (id, updatedTodo) => (dispatch) => {
   dispatch(updateTodoSuccess({ ...updatedTodo, id }));
-  message.success("update todo successfully");
+  
 };
 
 export const deleteTodo = (id) => (dispatch) => {
